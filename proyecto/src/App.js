@@ -10,6 +10,7 @@ function App() {
       <header>
         <nav className = {styles.navbar}>
         <NavBar/>
+        <CartWidget/>
         </nav>
       </header>
       <h1>Aqui van a haber Productos</h1>

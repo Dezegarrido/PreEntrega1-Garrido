@@ -1,8 +1,7 @@
 import React from 'react'
 
 function NavBar(){
-
-
+    
     return(
         <>
             <a href=''>Home</a>
