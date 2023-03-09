@@ -1,0 +1,15 @@
+a{
+    color: #6C698D;
+    text-decoration: none;
+    letter-spacing: 3px;
+    margin: 15px;
+}
+.navbar{
+    padding: 0;
+    box-shadow: 0px 3px 8px rgba(0, 0, 0, 15%);
+    width: 100vw;
+    height: 100px;
+    display: flex;
+    align-items: center;
+}
+
