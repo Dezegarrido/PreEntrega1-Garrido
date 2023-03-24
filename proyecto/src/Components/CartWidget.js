@@ -1,11 +1,12 @@
 import React from 'react'
+// import logo from './cart.svg'
 
 function CartWidget(){
 
     return(
         <>
-            <a href=''><img src='../assets/carrito-de-compras.png'></img></a>
-            <p>5</p>
+            {/* <img src={logo} alt="logo"/>
+            <p>5</p> */}
         </>
     )
 }

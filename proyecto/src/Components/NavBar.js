@@ -6,6 +6,7 @@ import ComoComprar from './Pages/ComoComprar'
 import Informacion from './Pages/Informacion'
 import Contacto from './Pages/Contacto'
 import Error from './Pages/Error'
+import CartWidget from './CartWidget'
 
 function NavBar(){
     
@@ -17,6 +18,7 @@ function NavBar(){
                 <Link to="/comocomprar">Como Comprar</Link>
                 <Link to="/informacion">Informacion</Link>
                 <Link to="/contacto">Contacto</Link>
+                <Link to="/"><CartWidget/></Link>
             </div>
             <hr/>
 
@@ -28,6 +30,8 @@ function NavBar(){
                 <Route path='/contacto' exact element={<Contacto/>}/>
                 <Route path='*' exact element={<Error/>}/>
             </Routes>
+
+
         </div>
     )
 }
