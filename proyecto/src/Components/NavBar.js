@@ -1,11 +1,11 @@
 import React from 'react'
 import {Routes, Route, Link} from 'react-router-dom'
-import Inicio from './pages/Inicio'
-import Productos from './pages/Productos'
-import ComoComprar from './pages/ComoComprar'
-import Informacion from './pages/Informacion'
-import Contacto from './pages/Contacto'
-import Error from './pages/Error'
+import Inicio from './Pages/Inicio'
+import Productos from './Pages/Productos'
+import ComoComprar from './Pages/ComoComprar'
+import Informacion from './Pages/Informacion'
+import Contacto from './Pages/Contacto'
+import Error from './Pages/Error'
 import CartWidget from './CartWidget'
 
 function NavBar(){
