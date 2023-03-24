@@ -12,6 +12,7 @@ function NavBar(){
     
     return(
         <div>
+            <h1>Sauco Shoes</h1>
             <div>
                 <Link to="/">Home</Link>
                 <Link to="/productos">Productos</Link>
