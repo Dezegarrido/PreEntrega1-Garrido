@@ -8,8 +8,7 @@ export default class ItemListContainer extends React.Component{
     render(){
         return(
             <>
-            <h1>Bienvenidos</h1>
-            <p>Aca van a haber Productos</p>
+            
             </>
         )
     }
